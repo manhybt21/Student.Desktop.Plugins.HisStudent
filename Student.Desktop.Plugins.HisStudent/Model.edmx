@@ -16,6 +16,7 @@
           <Property Name="hoNgheo" Type="nvarchar" MaxLength="20" />
           <Property Name="thanhTich" Type="nvarchar" MaxLength="20" />
           <Property Name="ghiChu" Type="nvarchar" MaxLength="200" />
+          <Property Name="ngaySinh" Type="date" />
         </EntityType>
         <EntityContainer Name="StudentModelStoreContainer">
           <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
@@ -36,6 +37,7 @@
           <Property Name="hoNgheo" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="thanhTich" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="ghiChu" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="ngaySinh" Type="DateTime" Precision="0" />
         </EntityType>
         <EntityContainer Name="StudentEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Student" EntityType="Self.Student" />
@@ -56,6 +58,7 @@
                 <ScalarProperty Name="hoNgheo" ColumnName="hoNgheo" />
                 <ScalarProperty Name="thanhTich" ColumnName="thanhTich" />
                 <ScalarProperty Name="ghiChu" ColumnName="ghiChu" />
+                <ScalarProperty Name="ngaySinh" ColumnName="ngaySinh" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

@@ -21,5 +21,6 @@ namespace Student.Desktop.Plugins.HisStudent
         public string hoNgheo { get; set; }
         public string thanhTich { get; set; }
         public string ghiChu { get; set; }
+        public Nullable<System.DateTime> ngaySinh { get; set; }
     }
 }
