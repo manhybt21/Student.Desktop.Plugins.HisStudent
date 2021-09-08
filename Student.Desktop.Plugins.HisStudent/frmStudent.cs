@@ -11,10 +11,10 @@ using DevExpress.XtraEditors;
 
 namespace Student.Desktop.Plugins.HisStudent
 {
-    public partial class Form1 : DevExpress.XtraEditors.XtraForm
+    public partial class frmStudent : DevExpress.XtraEditors.XtraForm
     {
         public StudentEntities _context = new StudentEntities();
-        public Form1()
+        public frmStudent()
 
         {
 
@@ -226,7 +226,7 @@ namespace Student.Desktop.Plugins.HisStudent
             try
             {
                 txt_masinhvien.Text = gridViewDataStudent.GetFocusedRowCellValue("maSinhVien").ToString();
-                txt_hoVaTen.Text = gridViewDataStudent.GetFocusedRowCellValue("Hova Ten").ToString();
+                txt_hoVaTen.Text = gridViewDataStudent.GetFocusedRowCellValue("HovaTen").ToString();
                 txt_thanhTichHocTap.Text = gridViewDataStudent.GetFocusedRowCellValue("thanhTich").ToString();
                 dt_ngaySinh.Text = DateTime.Parse(gridViewDataStudent.GetFocusedRowCellValue("ngaySinh").ToString()).ToString("dd/MM/yyyy");
                 if (gridViewDataStudent.GetFocusedRowCellValue("ghiChu").ToString() == null)
@@ -283,9 +283,5 @@ namespace Student.Desktop.Plugins.HisStudent
             clickData();
         }
 
-        private void lku_locTheoDoitTuong_EditValueChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

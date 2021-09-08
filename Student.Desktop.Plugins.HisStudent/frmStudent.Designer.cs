@@ -1,7 +1,7 @@
 ﻿
 namespace Student.Desktop.Plugins.HisStudent
 {
-    partial class Form1
+    partial class frmStudent
     {
         /// <summary>
         /// Required designer variable.
@@ -124,9 +124,9 @@ namespace Student.Desktop.Plugins.HisStudent
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.panel1);
-            this.groupControl1.Location = new System.Drawing.Point(783, 59);
+            this.groupControl1.Location = new System.Drawing.Point(838, 63);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(526, 562);
+            this.groupControl1.Size = new System.Drawing.Size(471, 562);
             this.groupControl1.TabIndex = 18;
             this.groupControl1.Text = "Sinh Viên";
             // 
@@ -151,15 +151,15 @@ namespace Student.Desktop.Plugins.HisStudent
             this.panel1.Controls.Add(this.txt_hoVaTen);
             this.panel1.Controls.Add(this.lbl_hoNgheo);
             this.panel1.Controls.Add(this.dlu_doituong);
-            this.panel1.Location = new System.Drawing.Point(6, 37);
+            this.panel1.Location = new System.Drawing.Point(5, 37);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(516, 518);
+            this.panel1.Size = new System.Drawing.Size(456, 518);
             this.panel1.TabIndex = 0;
             // 
             // dt_ngaySinh
             // 
             this.dt_ngaySinh.EditValue = null;
-            this.dt_ngaySinh.Location = new System.Drawing.Point(213, 135);
+            this.dt_ngaySinh.Location = new System.Drawing.Point(215, 135);
             this.dt_ngaySinh.Name = "dt_ngaySinh";
             this.dt_ngaySinh.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -170,7 +170,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(79, 135);
+            this.labelControl1.Location = new System.Drawing.Point(81, 135);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(70, 19);
             this.labelControl1.TabIndex = 52;
@@ -178,7 +178,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             // txt_ghiChu
             // 
-            this.txt_ghiChu.Location = new System.Drawing.Point(213, 345);
+            this.txt_ghiChu.Location = new System.Drawing.Point(215, 345);
             this.txt_ghiChu.Name = "txt_ghiChu";
             this.txt_ghiChu.Size = new System.Drawing.Size(219, 96);
             this.txt_ghiChu.TabIndex = 51;
@@ -186,14 +186,14 @@ namespace Student.Desktop.Plugins.HisStudent
             // txt_masinhvien
             // 
             this.txt_masinhvien.Enabled = false;
-            this.txt_masinhvien.Location = new System.Drawing.Point(213, 30);
+            this.txt_masinhvien.Location = new System.Drawing.Point(215, 30);
             this.txt_masinhvien.Name = "txt_masinhvien";
             this.txt_masinhvien.Size = new System.Drawing.Size(220, 28);
             this.txt_masinhvien.TabIndex = 50;
             // 
             // btn_xoa
             // 
-            this.btn_xoa.Location = new System.Drawing.Point(401, 467);
+            this.btn_xoa.Location = new System.Drawing.Point(342, 464);
             this.btn_xoa.Name = "btn_xoa";
             this.btn_xoa.Size = new System.Drawing.Size(104, 39);
             this.btn_xoa.TabIndex = 49;
@@ -203,7 +203,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             // btn_lamMoi
             // 
-            this.btn_lamMoi.Location = new System.Drawing.Point(8, 467);
+            this.btn_lamMoi.Location = new System.Drawing.Point(12, 464);
             this.btn_lamMoi.Name = "btn_lamMoi";
             this.btn_lamMoi.Size = new System.Drawing.Size(104, 39);
             this.btn_lamMoi.TabIndex = 48;
@@ -213,7 +213,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             // btn_Sua
             // 
-            this.btn_Sua.Location = new System.Drawing.Point(273, 467);
+            this.btn_Sua.Location = new System.Drawing.Point(232, 464);
             this.btn_Sua.Name = "btn_Sua";
             this.btn_Sua.Size = new System.Drawing.Size(104, 39);
             this.btn_Sua.TabIndex = 47;
@@ -223,7 +223,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             // btn_Them
             // 
-            this.btn_Them.Location = new System.Drawing.Point(141, 467);
+            this.btn_Them.Location = new System.Drawing.Point(122, 464);
             this.btn_Them.Name = "btn_Them";
             this.btn_Them.Size = new System.Drawing.Size(104, 39);
             this.btn_Them.TabIndex = 46;
@@ -235,7 +235,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             this.lbl_maSinhVien.AutoSize = true;
             this.lbl_maSinhVien.ForeColor = System.Drawing.Color.Black;
-            this.lbl_maSinhVien.Location = new System.Drawing.Point(59, 35);
+            this.lbl_maSinhVien.Location = new System.Drawing.Point(61, 35);
             this.lbl_maSinhVien.Name = "lbl_maSinhVien";
             this.lbl_maSinhVien.Size = new System.Drawing.Size(97, 19);
             this.lbl_maSinhVien.TabIndex = 35;
@@ -244,7 +244,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // rad_false
             // 
             this.rad_false.AutoSize = true;
-            this.rad_false.Location = new System.Drawing.Point(213, 235);
+            this.rad_false.Location = new System.Drawing.Point(215, 235);
             this.rad_false.Name = "rad_false";
             this.rad_false.Size = new System.Drawing.Size(79, 23);
             this.rad_false.TabIndex = 45;
@@ -256,7 +256,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             this.lbl_ghiChu.AutoSize = true;
             this.lbl_ghiChu.ForeColor = System.Drawing.Color.Black;
-            this.lbl_ghiChu.Location = new System.Drawing.Point(91, 346);
+            this.lbl_ghiChu.Location = new System.Drawing.Point(93, 346);
             this.lbl_ghiChu.Name = "lbl_ghiChu";
             this.lbl_ghiChu.Size = new System.Drawing.Size(63, 19);
             this.lbl_ghiChu.TabIndex = 36;
@@ -265,7 +265,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // rad_True
             // 
             this.rad_True.AutoSize = true;
-            this.rad_True.Location = new System.Drawing.Point(373, 232);
+            this.rad_True.Location = new System.Drawing.Point(375, 232);
             this.rad_True.Name = "rad_True";
             this.rad_True.Size = new System.Drawing.Size(53, 23);
             this.rad_True.TabIndex = 44;
@@ -277,7 +277,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             this.lbl_thanhTichHocTap.AutoSize = true;
             this.lbl_thanhTichHocTap.ForeColor = System.Drawing.Color.Black;
-            this.lbl_thanhTichHocTap.Location = new System.Drawing.Point(14, 292);
+            this.lbl_thanhTichHocTap.Location = new System.Drawing.Point(16, 292);
             this.lbl_thanhTichHocTap.Name = "lbl_thanhTichHocTap";
             this.lbl_thanhTichHocTap.Size = new System.Drawing.Size(141, 19);
             this.lbl_thanhTichHocTap.TabIndex = 37;
@@ -287,7 +287,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             this.lbl_hoVaTen.AutoSize = true;
             this.lbl_hoVaTen.ForeColor = System.Drawing.Color.Black;
-            this.lbl_hoVaTen.Location = new System.Drawing.Point(79, 90);
+            this.lbl_hoVaTen.Location = new System.Drawing.Point(81, 90);
             this.lbl_hoVaTen.Name = "lbl_hoVaTen";
             this.lbl_hoVaTen.Size = new System.Drawing.Size(77, 19);
             this.lbl_hoVaTen.TabIndex = 38;
@@ -295,7 +295,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             // txt_thanhTichHocTap
             // 
-            this.txt_thanhTichHocTap.Location = new System.Drawing.Point(213, 289);
+            this.txt_thanhTichHocTap.Location = new System.Drawing.Point(215, 289);
             this.txt_thanhTichHocTap.Name = "txt_thanhTichHocTap";
             this.txt_thanhTichHocTap.Size = new System.Drawing.Size(220, 27);
             this.txt_thanhTichHocTap.TabIndex = 42;
@@ -304,7 +304,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             this.lbl_doiTuong.AutoSize = true;
             this.lbl_doiTuong.ForeColor = System.Drawing.Color.Black;
-            this.lbl_doiTuong.Location = new System.Drawing.Point(75, 180);
+            this.lbl_doiTuong.Location = new System.Drawing.Point(77, 180);
             this.lbl_doiTuong.Name = "lbl_doiTuong";
             this.lbl_doiTuong.Size = new System.Drawing.Size(80, 19);
             this.lbl_doiTuong.TabIndex = 39;
@@ -312,7 +312,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             // txt_hoVaTen
             // 
-            this.txt_hoVaTen.Location = new System.Drawing.Point(214, 89);
+            this.txt_hoVaTen.Location = new System.Drawing.Point(216, 89);
             this.txt_hoVaTen.Name = "txt_hoVaTen";
             this.txt_hoVaTen.Size = new System.Drawing.Size(220, 27);
             this.txt_hoVaTen.TabIndex = 41;
@@ -321,7 +321,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             this.lbl_hoNgheo.AutoSize = true;
             this.lbl_hoNgheo.ForeColor = System.Drawing.Color.Black;
-            this.lbl_hoNgheo.Location = new System.Drawing.Point(75, 236);
+            this.lbl_hoNgheo.Location = new System.Drawing.Point(77, 236);
             this.lbl_hoNgheo.Name = "lbl_hoNgheo";
             this.lbl_hoNgheo.Size = new System.Drawing.Size(78, 19);
             this.lbl_hoNgheo.TabIndex = 40;
@@ -330,7 +330,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // dlu_doituong
             // 
             this.dlu_doituong.EditValue = "chọn loại đối tượng";
-            this.dlu_doituong.Location = new System.Drawing.Point(213, 178);
+            this.dlu_doituong.Location = new System.Drawing.Point(215, 178);
             this.dlu_doituong.Name = "dlu_doituong";
             this.dlu_doituong.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -350,7 +350,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // gridDataStudent
             // 
             this.gridDataStudent.DataSource = this.studentBindingSource1;
-            this.gridDataStudent.Location = new System.Drawing.Point(12, 63);
+            this.gridDataStudent.Location = new System.Drawing.Point(8, 59);
             this.gridDataStudent.MainView = this.gridViewDataStudent;
             this.gridDataStudent.Name = "gridDataStudent";
             this.gridDataStudent.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
@@ -363,7 +363,7 @@ namespace Student.Desktop.Plugins.HisStudent
             this.repositoryItemDateEdit2,
             this.repositoryItemLookUpEdit3,
             this.repositoryItemLookUpEdit4});
-            this.gridDataStudent.Size = new System.Drawing.Size(765, 562);
+            this.gridDataStudent.Size = new System.Drawing.Size(824, 562);
             this.gridDataStudent.TabIndex = 19;
             this.gridDataStudent.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridViewDataStudent});
@@ -400,10 +400,11 @@ namespace Student.Desktop.Plugins.HisStudent
             this.colid.OptionsColumn.ReadOnly = true;
             this.colid.Visible = true;
             this.colid.VisibleIndex = 0;
-            this.colid.Width = 132;
+            this.colid.Width = 54;
             // 
             // colmaSinhVien
             // 
+            this.colmaSinhVien.Caption = "Mã SV";
             this.colmaSinhVien.FieldName = "maSinhVien";
             this.colmaSinhVien.Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Left;
             this.colmaSinhVien.MinWidth = 30;
@@ -413,10 +414,11 @@ namespace Student.Desktop.Plugins.HisStudent
             this.colmaSinhVien.OptionsColumn.ReadOnly = true;
             this.colmaSinhVien.Visible = true;
             this.colmaSinhVien.VisibleIndex = 1;
-            this.colmaSinhVien.Width = 200;
+            this.colmaSinhVien.Width = 71;
             // 
             // colHovaTen
             // 
+            this.colHovaTen.Caption = "Họ và Tên";
             this.colHovaTen.FieldName = "HovaTen";
             this.colHovaTen.Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Left;
             this.colHovaTen.MinWidth = 30;
@@ -425,10 +427,11 @@ namespace Student.Desktop.Plugins.HisStudent
             this.colHovaTen.OptionsColumn.ReadOnly = true;
             this.colHovaTen.Visible = true;
             this.colHovaTen.VisibleIndex = 2;
-            this.colHovaTen.Width = 132;
+            this.colHovaTen.Width = 114;
             // 
             // colNgaySinh
             // 
+            this.colNgaySinh.Caption = "Ngày Sinh";
             this.colNgaySinh.ColumnEdit = this.repositoryItemDateEdit2;
             this.colNgaySinh.FieldName = "ngaySinh";
             this.colNgaySinh.MinWidth = 30;
@@ -438,7 +441,7 @@ namespace Student.Desktop.Plugins.HisStudent
             this.colNgaySinh.OptionsColumn.ReadOnly = true;
             this.colNgaySinh.Visible = true;
             this.colNgaySinh.VisibleIndex = 3;
-            this.colNgaySinh.Width = 112;
+            this.colNgaySinh.Width = 108;
             // 
             // repositoryItemDateEdit2
             // 
@@ -451,6 +454,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             // coldoiTuong
             // 
+            this.coldoiTuong.Caption = "Đối Tượng";
             this.coldoiTuong.FieldName = "doiTuong";
             this.coldoiTuong.MinWidth = 30;
             this.coldoiTuong.Name = "coldoiTuong";
@@ -458,10 +462,11 @@ namespace Student.Desktop.Plugins.HisStudent
             this.coldoiTuong.OptionsColumn.ReadOnly = true;
             this.coldoiTuong.Visible = true;
             this.coldoiTuong.VisibleIndex = 4;
-            this.coldoiTuong.Width = 132;
+            this.coldoiTuong.Width = 101;
             // 
             // colhoNgheo
             // 
+            this.colhoNgheo.Caption = "Hộ Nghèo";
             this.colhoNgheo.FieldName = "hoNgheo";
             this.colhoNgheo.MinWidth = 30;
             this.colhoNgheo.Name = "colhoNgheo";
@@ -469,10 +474,11 @@ namespace Student.Desktop.Plugins.HisStudent
             this.colhoNgheo.OptionsColumn.ReadOnly = true;
             this.colhoNgheo.Visible = true;
             this.colhoNgheo.VisibleIndex = 5;
-            this.colhoNgheo.Width = 125;
+            this.colhoNgheo.Width = 85;
             // 
             // colthanhTich
             // 
+            this.colthanhTich.Caption = "Thành Tích";
             this.colthanhTich.FieldName = "thanhTich";
             this.colthanhTich.MinWidth = 30;
             this.colthanhTich.Name = "colthanhTich";
@@ -480,10 +486,11 @@ namespace Student.Desktop.Plugins.HisStudent
             this.colthanhTich.OptionsColumn.ReadOnly = true;
             this.colthanhTich.Visible = true;
             this.colthanhTich.VisibleIndex = 6;
-            this.colthanhTich.Width = 157;
+            this.colthanhTich.Width = 77;
             // 
             // colghiChu
             // 
+            this.colghiChu.Caption = "Ghi Chú";
             this.colghiChu.ColumnEdit = this.repositoryItemMemoEdit1;
             this.colghiChu.FieldName = "ghiChu";
             this.colghiChu.MinWidth = 30;
@@ -491,7 +498,7 @@ namespace Student.Desktop.Plugins.HisStudent
             this.colghiChu.OptionsColumn.ReadOnly = true;
             this.colghiChu.Visible = true;
             this.colghiChu.VisibleIndex = 7;
-            this.colghiChu.Width = 200;
+            this.colghiChu.Width = 285;
             // 
             // repositoryItemMemoEdit1
             // 
@@ -613,7 +620,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             this.btn_countKhongMienGiam.Appearance.ForeColor = System.Drawing.Color.Black;
             this.btn_countKhongMienGiam.Appearance.Options.UseForeColor = true;
-            this.btn_countKhongMienGiam.Location = new System.Drawing.Point(628, 12);
+            this.btn_countKhongMienGiam.Location = new System.Drawing.Point(676, 12);
             this.btn_countKhongMienGiam.Name = "btn_countKhongMienGiam";
             this.btn_countKhongMienGiam.Size = new System.Drawing.Size(155, 34);
             this.btn_countKhongMienGiam.TabIndex = 30;
@@ -623,7 +630,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             this.btn_mienGiamMotNua.Appearance.ForeColor = System.Drawing.Color.Black;
             this.btn_mienGiamMotNua.Appearance.Options.UseForeColor = true;
-            this.btn_mienGiamMotNua.Location = new System.Drawing.Point(473, 11);
+            this.btn_mienGiamMotNua.Location = new System.Drawing.Point(509, 12);
             this.btn_mienGiamMotNua.Name = "btn_mienGiamMotNua";
             this.btn_mienGiamMotNua.Size = new System.Drawing.Size(155, 34);
             this.btn_mienGiamMotNua.TabIndex = 29;
@@ -633,7 +640,7 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             this.btn_countMienGiam.Appearance.ForeColor = System.Drawing.Color.Black;
             this.btn_countMienGiam.Appearance.Options.UseForeColor = true;
-            this.btn_countMienGiam.Location = new System.Drawing.Point(318, 11);
+            this.btn_countMienGiam.Location = new System.Drawing.Point(342, 12);
             this.btn_countMienGiam.Name = "btn_countMienGiam";
             this.btn_countMienGiam.Size = new System.Drawing.Size(155, 34);
             this.btn_countMienGiam.TabIndex = 28;
@@ -643,13 +650,13 @@ namespace Student.Desktop.Plugins.HisStudent
             // 
             this.btn_countHoNgheo.Appearance.ForeColor = System.Drawing.Color.Black;
             this.btn_countHoNgheo.Appearance.Options.UseForeColor = true;
-            this.btn_countHoNgheo.Location = new System.Drawing.Point(163, 12);
+            this.btn_countHoNgheo.Location = new System.Drawing.Point(175, 12);
             this.btn_countHoNgheo.Name = "btn_countHoNgheo";
             this.btn_countHoNgheo.Size = new System.Drawing.Size(155, 34);
             this.btn_countHoNgheo.TabIndex = 27;
             this.btn_countHoNgheo.Text = "Hộ Nghèo";
             // 
-            // Form1
+            // frmStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -662,7 +669,7 @@ namespace Student.Desktop.Plugins.HisStudent
             this.Controls.Add(this.gridDataStudent);
             this.Controls.Add(this.groupControl1);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "frmStudent";
             this.Text = "Quản Lý Sinh Viên";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();

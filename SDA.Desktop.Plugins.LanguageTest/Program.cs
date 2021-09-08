@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Student.Desktop.Plugins.HisStudent
+namespace SDA.Desktop.Plugins.LanguageTest
 {
     static class Program
     {
@@ -18,7 +18,7 @@ namespace Student.Desktop.Plugins.HisStudent
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmStudent());
+            Application.Run(new Form1());
         }
     }
 }
